@@ -1,0 +1,23 @@
+
+.custom-carousel .custom-img {
+  width: 60%;
+  height: auto;
+}
+
+
+
+.custom-prev-icon::after {
+  content: '‹';
+  font-size: 60px;
+  color: rgb(37, 36, 36);
+  position: absolute;
+  left: 10px;
+}
+
+.custom-next-icon::after {
+  content: '›';
+  font-size: 60px;
+  color: rgb(37, 36, 36);
+  position: absolute;
+  right: 10px;
+}
